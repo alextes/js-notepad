@@ -13,8 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
-    "graphql": "^0.12.3",
-    "lodash": "^4.17.4",
+    "graphql": "^0.13.0",
+    "jest": "^22.4.2",
+    "lodash": "^4.17.5",
     "node-fetch": "^2.0.0",
     "p-throttle": "^1.1.0",
     "p-timeout": "^2.0.1",
@@ -22,15 +23,14 @@
     "ramda": "^0.25.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.0.0-beta.37",
     "babel-cli": "^6.26.0",
-    "benchmark": "^2.1.4",
-    "eslint": "^4.15.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.17.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
-    "flow-bin": "^0.63.1",
-    "prettier-eslint": "^8.7.4",
-    "prettier-eslint-cli": "^4.7.0"
+    "flow-bin": "^0.65.0",
+    "prettier-eslint": "^8.8.1",
+    "prettier-eslint-cli": "^4.7.1"
   }
 }
