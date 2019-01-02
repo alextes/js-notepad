@@ -12,29 +12,29 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^10.9.4",
-    "express": "^4.16.3",
+    "@types/node": "^10.12.18",
+    "express": "^4.16.4",
     "jest": "^23.6.0",
-    "koa": "^2.5.3",
+    "koa": "^2.6.2",
     "lodash": "^4.17.11",
-    "p-limit": "^2.0.0",
-    "p-throttle": "^1.1.0",
+    "p-limit": "^2.1.0",
+    "p-throttle": "^2.1.0",
     "p-timeout": "^2.0.1",
     "path-parser": "^4.2.0",
     "ramda": "^0.26.1",
     "typescript": "^3.2.2"
   },
   "devDependencies": {
-    "eslint": "^5.5.0",
+    "eslint": "^5.11.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^3.0.1",
+    "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-import": "^2.14.0",
-    "nodemon": "^1.18.8",
+    "nodemon": "^1.18.9",
     "prettier": "^1.15.3",
     "prettier-stylelint": "github:alextes/prettier-stylelint",
     "prettier_d": "^5.7.4",
     "ts-node": "^7.0.1",
-    "tslint": "^5.11.0",
-    "tslint-config-airbnb": "^5.11.0"
+    "tslint": "^5.12.0",
+    "tslint-config-airbnb": "^5.11.1"
   }
 }
