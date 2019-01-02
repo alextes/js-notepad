@@ -1,4 +1,7 @@
 module.exports = {
-  parser: 'babel-eslint',
-  extends: ['prettier', 'airbnb-base'],
+  extends: ["airbnb", "prettier"],
+  parser: "babel-eslint",
+  rules: {
+    "max-len": 80
+  }
 };

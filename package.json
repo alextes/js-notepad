@@ -25,10 +25,14 @@
     "typescript": "^3.2.2"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint": "^5.11.1",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.1",
     "nodemon": "^1.18.9",
     "prettier": "^1.15.3",
     "prettier-stylelint": "github:alextes/prettier-stylelint",
