@@ -1,7 +1,8 @@
 module.exports = {
-  extends: ["airbnb", "prettier"],
+  extends: ["airbnb", "prettier", "plugin:promise/recommended"],
   parser: "babel-eslint",
+  plugins: ["promise"],
   rules: {
-    "max-len": 80
-  }
+    "max-len": ["error", { code: 80 }],
+  },
 };
