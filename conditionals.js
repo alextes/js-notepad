@@ -18,32 +18,31 @@ function two() {
   if (maybe) {
     return 2;
   } else {
-    return null
+    return null;
   }
 }
 
 // if if return
 // else return
 // implicit return
-function two() {
+function twoo() {
   if (maybe) {
     if (maybe2) {
       return 2;
     }
   } else {
-    return null
+    return null;
   }
 }
 
 // if if return
 // return
-function two() {
+function twooo() {
   if (maybe) {
     if (maybe2) {
       return 2;
     }
   }
 
-  return null
+  return null;
 }
-

@@ -1,4 +1,4 @@
-const doAsync = num =>
+const doAsync = async num =>
   new Promise(resolve => {
     setTimeout(() => {
       resolve(num);
